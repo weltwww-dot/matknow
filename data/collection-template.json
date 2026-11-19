@@ -1,0 +1,28 @@
+{
+  "说明": "收集模板。请将示例文字替换为真实信息；DOI 没有就保留 null。",
+  "documents": [
+    {
+      "source_id": "P001",
+      "title": "填写完整论文标题",
+      "doi": null,
+      "source_url": null,
+      "year": null,
+      "document_kind": "paper",
+      "parent_source_id": null,
+      "material_system": "填写所选材料体系",
+      "sample_ids": [],
+      "language": "en",
+      "file_name": "P001/P001-paper.pdf",
+      "methods_physical_pages": [],
+      "permission_note": "填写仅内部调试／可公开演示／可分发／待核实"
+    },
+    {
+      "source_id": "P001-SI",
+      "title": "填写对应补充材料标题",
+      "document_kind": "supplementary",
+      "parent_source_id": "P001",
+      "file_name": "P001/P001-SI.pdf",
+      "permission_note": "待核实"
+    }
+  ]
+}

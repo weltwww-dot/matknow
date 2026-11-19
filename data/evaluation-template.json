@@ -1,0 +1,31 @@
+{
+  "说明": "人工评测收集模板，尚未填写真实答案，也不是已通过的评测结果。",
+  "questions": [
+    {
+      "question_id": "Q001",
+      "question": "P001 中样品 A 的干燥时间是多少？",
+      "allowed_source_ids": ["P001", "P001-SI"],
+      "expected_behavior": "answer_with_evidence",
+      "expected_answer_points": [],
+      "evidence": [
+        {
+          "source_id": "P001",
+          "file_name": "P001/P001-paper.pdf",
+          "physical_page": null,
+          "section": "填写章节名",
+          "quote": "填写经人工核对的短原文"
+        }
+      ],
+      "pitfalls": ["注意区分不同样品的条件"]
+    },
+    {
+      "question_id": "Q002",
+      "question": "当前资料是否报告了样品 A 这一步的升温速率？",
+      "allowed_source_ids": ["P001", "P001-SI"],
+      "expected_behavior": "填写 answer_with_evidence 或 insufficient_evidence",
+      "checked_sections": [],
+      "expected_answer_points": [],
+      "evidence": []
+    }
+  ]
+}
